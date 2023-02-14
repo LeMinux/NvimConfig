@@ -34,7 +34,7 @@ require('nightfox').setup({
 
 	groups = {
 		duskfox = {
-			Whitespace = {fg = "palette.pink"},
+			Whitespace = {fg = "#866A82"},
 		}
 	},
 })
