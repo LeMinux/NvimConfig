@@ -45,3 +45,4 @@ opts = {
 }
 
 require("lazy").setup('plugins', opts)
+require('configs.keymaps')
