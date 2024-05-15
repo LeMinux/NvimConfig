@@ -41,15 +41,3 @@ opt.iskeyword:append("-")
 opt.mouse:append('a')
 opt.modifiable = true
 opt.encoding = "UTF-8"
-
---vim.diagnostic.open_float(),
---lsp behavior sometimes lines are long and the error goes off the screen
---vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
-	--vim.lsp.diagnostic.on_publish_diagnostics,
-	--{
-	--		virtual_text = true,
-	--		signs = true,
-	--		update_in_insert = false,
-	--		underline = true,
-	--}
---)
