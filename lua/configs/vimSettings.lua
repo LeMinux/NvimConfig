@@ -24,6 +24,7 @@ opt.listchars = {
 opt.colorcolumn = "80"
 opt.cursorline = true
 opt.number = true
+opt.relativenumber = true
 
 --behavior
 opt.termguicolors = true

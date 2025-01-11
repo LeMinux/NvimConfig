@@ -2,7 +2,9 @@ local config = function()
 	local lspconfig = require("lspconfig")
 	local symbols = {Error = "!!", Warn = "!~", Hint = "^^", Info = "??"}
 
-	lspconfig.clangd.setup{}
+	lspconfig.clangd.setup{
+		cmd = {"clangd", "--header-insertion=never"},
+	}
 	lspconfig.pyright.setup{}
 
 end
